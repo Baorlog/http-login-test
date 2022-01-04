@@ -1,0 +1,41 @@
+.container{
+    background-color: rgb(180, 185, 211);
+    border: 2px solid black;
+    border-radius: 15px;
+    margin-top: 15vh;
+    margin-left: 35%;
+    display: flex;
+    flex-flow: column nowrap;
+    width: 30%;
+    align-items: center;
+}
+
+h1{
+    text-align: center;
+}
+
+.login-form{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+input{
+    border: none;
+    font-size: 130%;
+    text-align: center;
+    margin-bottom: 5%;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+a{
+    margin-bottom: 5%;
+}
+
+button{
+    margin-bottom: 5%;
+    font-size: 120%;
+    padding: 10px 15px;
+    border-radius: 15px;
+}
